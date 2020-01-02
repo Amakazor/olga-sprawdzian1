@@ -9,17 +9,19 @@ int power(int b, unsigned int p)
 {	
 	int suma = 1;
 
-	while (p > 0)
+	if (p == 0)
 	{
-		suma *= b;
-		p--;
+		return 1;
 	}
-	return suma;
+	else
+	{
+		return b * power(b,(p - 1));
+	}
 }
 
 int main()
 {
-	if (false)
+	if (true)
 	{
 		int base = 0;
 		unsigned int exponent = 0;
