@@ -3,7 +3,7 @@
 
 /*Sprawdzian 1*/
 //napisz funkcję power() obliczającą potęgę o wykładniku naturalnym(z zerem) dowolnej liczby całkowitej
-//funkcja musi być rekursywna
+//funkcja musi być rekursywn
 
 int power(int b, unsigned int p)
 {	
