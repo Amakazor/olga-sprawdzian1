@@ -7,8 +7,6 @@
 
 int power(int b, unsigned int p)
 {	
-	int suma = 1;
-
 	if (p == 0)
 	{
 		return 1;
