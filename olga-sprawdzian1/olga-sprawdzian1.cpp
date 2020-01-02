@@ -6,13 +6,20 @@
 //funkcja musi być rekursywna
 
 int power(int b, unsigned int p)
-{
-	return INT32_MIN;
+{	
+	int suma = 1;
+
+	while (p > 0)
+	{
+		suma *= b;
+		p--;
+	}
+	return suma;
 }
 
 int main()
 {
-	if (true)
+	if (false)
 	{
 		int base = 0;
 		unsigned int exponent = 0;
